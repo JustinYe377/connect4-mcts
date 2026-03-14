@@ -1,0 +1,50 @@
+2026-03-11 00:30:05,389 [INFO] ============================================================
+2026-03-11 00:30:05,389 [INFO] Experiment started  run_id=20260311_003005
+2026-03-11 00:30:05,389 [INFO] games=10  iters=[50]  hybrid_k=3  llm_scale=0.25
+2026-03-11 00:30:05,389 [INFO] ============================================================
+2026-03-11 00:30:05,389 [INFO] 
+2026-03-11 00:30:05,389 [INFO] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-03-11 00:30:05,389 [INFO] MATCHUP: BASELINE_VS_DIRECT
+2026-03-11 00:30:05,390 [INFO] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-03-11 00:30:05,390 [INFO]   ── iters=50 ──
+2026-03-11 00:32:52,001 [INFO]     game  1/10  first=baseline  winner=baseline  moves=24  avg_move=6.94s  total=166.6s
+2026-03-11 00:33:16,531 [INFO]     game  2/10  first=direct    winner=baseline  moves= 7  avg_move=3.50s  total=24.5s
+2026-03-11 00:34:22,117 [INFO]     game  3/10  first=baseline  winner=baseline  moves=12  avg_move=5.46s  total=65.6s
+2026-03-11 00:36:09,167 [INFO]     game  4/10  first=direct    winner=baseline  moves=19  avg_move=5.63s  total=107.0s
+2026-03-11 00:37:55,577 [INFO]     game  5/10  first=baseline  winner=baseline  moves=16  avg_move=6.65s  total=106.4s
+2026-03-11 00:40:12,982 [INFO]     game  6/10  first=direct    winner=baseline  moves=21  avg_move=6.54s  total=137.4s
+2026-03-11 00:42:25,078 [INFO]     game  7/10  first=baseline  winner=baseline  moves=20  avg_move=6.60s  total=132.1s
+2026-03-11 00:45:27,886 [INFO]     game  8/10  first=direct    winner=baseline  moves=25  avg_move=7.31s  total=182.8s
+2026-03-11 00:47:56,503 [INFO]     game  9/10  first=baseline  winner=baseline  moves=22  avg_move=6.75s  total=148.6s
+2026-03-11 00:48:36,666 [INFO]     game 10/10  first=direct    winner=direct    moves= 8  avg_move=5.02s  total=40.2s
+2026-03-11 00:48:36,666 [INFO]   RESULT iters=50  baseline=9W  direct=1W  draws=0  avg_move=6.04s  total=1111.3s
+2026-03-11 00:48:36,666 [INFO]   Cache  direct=133H/703M  move=0H/0M
+2026-03-11 00:48:36,666 [INFO] 
+2026-03-11 00:48:36,666 [INFO] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-03-11 00:48:36,666 [INFO] MATCHUP: BASELINE_VS_HYBRID
+2026-03-11 00:48:36,666 [INFO] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-03-11 00:48:36,666 [INFO]   ── iters=50 ──
+2026-03-11 00:54:24,539 [INFO]     game  1/10  first=baseline  winner=baseline  moves=16  avg_move=21.74s  total=347.9s
+2026-03-11 00:59:03,945 [INFO]     game  2/10  first=hybrid    winner=hybrid    moves=14  avg_move=19.96s  total=279.4s
+2026-03-11 01:09:13,172 [INFO]     game  3/10  first=baseline  winner=baseline  moves=28  avg_move=21.76s  total=609.2s
+2026-03-11 01:11:09,356 [INFO]     game  4/10  first=hybrid    winner=baseline  moves= 7  avg_move=16.60s  total=116.2s
+2026-03-11 01:16:03,385 [INFO]     game  5/10  first=baseline  winner=baseline  moves=14  avg_move=21.00s  total=294.0s
+2026-03-11 01:21:02,374 [INFO]     game  6/10  first=hybrid    winner=baseline  moves=15  avg_move=19.93s  total=299.0s
+2026-03-11 01:23:09,904 [INFO]     game  7/10  first=baseline  winner=hybrid    moves= 7  avg_move=18.22s  total=127.5s
+2026-03-11 01:25:20,006 [INFO]     game  8/10  first=hybrid    winner=baseline  moves= 7  avg_move=18.59s  total=130.1s
+2026-03-11 01:29:43,641 [INFO]     game  9/10  first=baseline  winner=baseline  moves=12  avg_move=21.97s  total=263.6s
+2026-03-11 01:33:48,116 [INFO]     game 10/10  first=hybrid    winner=hybrid    moves=14  avg_move=17.46s  total=244.5s
+2026-03-11 01:33:48,118 [INFO]   RESULT iters=50  baseline=7W  hybrid=3W  draws=0  avg_move=19.72s  total=2711.5s
+2026-03-11 01:33:48,118 [INFO]   Cache  direct=133H/703M  move=153H/1737M
+2026-03-11 01:33:48,118 [INFO] 
+2026-03-11 01:33:48,118 [INFO] ================================================================================
+2026-03-11 01:33:48,119 [INFO]   FINAL SUMMARY
+2026-03-11 01:33:48,119 [INFO]   Iters   baseline vs direct    baseline vs hybrid    avg_move(bd)  avg_move(bh)
+2026-03-11 01:33:48,119 [INFO] --------------------------------------------------------------------------------
+2026-03-11 01:33:48,119 [INFO]   50      9/1/0                 7/3/0                 6.04s         19.72s      
+2026-03-11 01:33:48,119 [INFO] ================================================================================
+2026-03-11 01:33:48,120 [INFO] JSON summary → results/run_20260311_003005_summary.json
+2026-03-11 01:33:48,120 [INFO] CSV games    → results/run_20260311_003005_games.csv
+2026-03-11 01:33:48,120 [INFO] CSV moves    → results/run_20260311_003005_moves.csv
+2026-03-11 01:33:48,120 [INFO] Full log     → results/run_20260311_003005.log
+2026-03-11 01:33:48,126 [INFO] Cache saved → llm_cache.json

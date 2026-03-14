@@ -1,0 +1,5 @@
+run_id,matchup,iters,game_num,mode_first,mode_second,outcome,winner_mode,num_moves,time_s,cache_direct_hits,cache_direct_misses,cache_move_hits,cache_move_misses
+20260310_231301,baseline_vs_direct,50,1,baseline,direct,B,direct,7,228.06,2,144,0,0
+20260310_231301,baseline_vs_direct,50,2,direct,baseline,A,baseline,7,200.25,9,271,0,0
+20260310_231301,baseline_vs_direct,50,3,baseline,direct,A,baseline,24,772.94,40,748,0,0
+20260310_231301,baseline_vs_direct,50,4,direct,baseline,A,baseline,11,338.95,61,959,0,0

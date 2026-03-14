@@ -104,4 +104,3 @@ def train_mcts_once(mcts=None):
         print('no valid moves, expended all')
 
     return mcts
-

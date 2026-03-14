@@ -1,0 +1,48 @@
+{
+  "run_id": "20260311_003005",
+  "config": {
+    "games": 10,
+    "iters": [
+      50
+    ],
+    "hybrid_k": 3,
+    "llm_iters_scale": 0.25,
+    "logdir": "results"
+  },
+  "baseline_vs_direct": {
+    "50": {
+      "wins_a": 9,
+      "wins_b": 1,
+      "draws": 0,
+      "time_s": 1111.3,
+      "avg_move_time_s": 6.043,
+      "cache_snapshot": {
+        "direct_hits": 133,
+        "direct_misses": 703,
+        "move_hits": 0,
+        "move_misses": 0
+      }
+    }
+  },
+  "baseline_vs_hybrid": {
+    "50": {
+      "wins_a": 7,
+      "wins_b": 3,
+      "draws": 0,
+      "time_s": 2711.5,
+      "avg_move_time_s": 19.722,
+      "cache_snapshot": {
+        "direct_hits": 133,
+        "direct_misses": 703,
+        "move_hits": 153,
+        "move_misses": 1737
+      }
+    }
+  },
+  "final_cache": {
+    "direct_hits": 133,
+    "direct_misses": 703,
+    "move_hits": 153,
+    "move_misses": 1737
+  }
+}

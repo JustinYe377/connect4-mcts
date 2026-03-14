@@ -1,0 +1,17 @@
+2026-03-10 23:42:47,374 [INFO] ============================================================
+2026-03-10 23:42:47,375 [INFO] Experiment started  run_id=20260310_234247
+2026-03-10 23:42:47,375 [INFO] games=10  iters=[50, 200]  hybrid_k=3
+2026-03-10 23:42:47,375 [INFO] Logs → results
+2026-03-10 23:42:47,375 [INFO] ============================================================
+2026-03-10 23:42:47,375 [INFO] 
+2026-03-10 23:42:47,375 [INFO] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-03-10 23:42:47,375 [INFO] MATCHUP: BASELINE_VS_DIRECT
+2026-03-10 23:42:47,375 [INFO] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-03-10 23:42:47,375 [INFO]   ── iters=50 ──
+2026-03-10 23:42:48,162 [INFO] HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-03-10 23:42:49,488 [INFO] HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-03-10 23:42:50,774 [INFO] HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-03-10 23:42:52,284 [INFO] HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-03-10 23:42:53,746 [INFO] HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-03-10 23:42:55,217 [INFO] HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-03-10 23:42:56,583 [INFO] HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
